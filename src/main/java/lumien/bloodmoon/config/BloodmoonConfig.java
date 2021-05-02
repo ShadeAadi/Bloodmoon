@@ -33,7 +33,7 @@ public class BloodmoonConfig
 
 		@Name(value = "Vanish")
 		@Comment(value = { "Whether monsters spawned by a bloodmoon should die at dawn" })
-		public boolean VANISH = false;
+		public boolean VANISH = true;
 
 		@Name(value = "RespectGamerule")
 		@Comment(value = { "Whether bloodmoons should respect the doMobSpawning gamerule" })
